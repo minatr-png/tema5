@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td{
+  padding: 5px;   
+}
+td:titulo{
+  padding: 5px;    
+}
+</style>
+<header>
+	<h3>Información</h3>
+	<p>La Escuela de Fútbol RFEF está dirigida a alumnos de edades comprendidas entre los 4 y los 13 años, divididos en:</p>
+	<p>Chupetines (4 y 5 años)</p>
+	<p>Fútbol Base: Prebenjamín, Benjamín, Alevín e Infantil (6 a 13 años).</p>
+</header>
+<body>
+<form action="correo@gmail.com">
+	<br>
+	<h3>Formulario</h3>
+	Nombre:
+	<input type="text" name="nombre"><br><br>
+	Apellidos:
+	<input type="text" name="apellidos"><br><br>
+	Fecha de nacimiento:
+	<input type="date" name="fecha"><br><br>
+	Teléfono ed contacto 1:
+	<input type="int" name="telf1"><br><br>
+	Teléfono ed contacto 2:
+	<input type="int" name="telf2"><br><br>
+	Nombre del padre:
+	<input type="text" name="nombreP"><br><br>
+	Apellidos del padre:
+	<input type="text" name="apellidosP"><br><br>
+	Nombre de la madre:
+	<input type="text" name="nombreM"><br><br>
+	Apellidos de la madre:
+	<input type="text" name="apellidosM"><br><br>
+
+	<fieldset>
+		<legend>Categoría:</legend>
+		<input type="radio" name="categoria" value="prebenjamin"> Prebenjamín<br>
+		<input type="radio" name="categoria" value="benjamin"> Benjamín<br>
+		<input type="radio" name="categoria" value="alevin"> Alevín<br>
+		<input type="radio" name="categoria" value="infantil"> Infantil<br>
+		<input type="radio" name="categoria" value="cadete"> Cadete<br>
+		<input type="radio" name="categoria" value="juvenil"> Juvenil<br>
+	</fieldset>
+
+	<fieldset>
+		<legend>Posicion:</legend>
+		<input type="radio" name="posicion" value="portero"> Portero<br>
+		<input type="radio" name="posicion" value="portero"> Defensa<br>
+		<input type="radio" name="posicion" value="portero"> Centrocampista<br>
+		<input type="radio" name="posicion" value="portero"> Delantero<br>
+	</fieldset><br>
+
+	Número de dorsal:
+	<select name="dorsal">
+	    <option value="1">1</option>
+	  	<option value="2">2</option>
+	  	<option value="3">3</option>
+	  	<option value="4">4</option>
+	  	<option value="5">5</option>
+	  	<option value="6">6</option>
+	  	<option value="7">7</option>
+	  	<option value="8">8</option>
+	  	<option value="9">9</option>
+	  	<option value="10">10</option>
+	  	<option value="11">11</option>
+	  	<option value="12">12</option>
+	  	<option value="13">13</option>
+	  	<option value="14">14</option>
+	  	<option value="15">15</option>
+	  	<option value="16">16</option>
+	  	<option value="17">17</option>
+	  	<option value="18">18</option>
+	  	<option value="19">19</option>
+	  	<option value="20">20</option>
+	</select><br><br>
+
+	Introduce aquí tus comentarios:<br>
+	<textarea rows="10" cols="180"></textarea><br>
+
+	<label for="imagen">Fotografía:</label>
+	<input name="file" type="file" size="2mb"><br><br>
+
+	<input type="reset" value="Borrar formulario"><br><br>
+	<input type="submit" value="Enviar">
+</form><br>
+<table>
+	<tr>
+		<td colspan="6" style="text-align: center;">Horarios de entrenamiento por categorías</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Lunes</td>
+		<td>Martes</td>
+		<td>Miercoles</td>
+		<td>Jueves</td>
+		<td>Viernes</td>
+	</tr>
+	<tr>
+		<td>Prebenjamín</td>
+		<td></td>
+		<td></td>
+		<td>18:00</td>
+		<td></td>
+		<td>18:00</td>
+	</tr>
+	<tr>
+		<td>Benjamín</td>
+		<td>18:00</td>
+		<td></td>
+		<td></td>
+		<td>18:00</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Alevín</td>
+		<td></td>
+		<td>18:00</td>
+		<td></td>
+		<td></td>
+		<td>18:00</td>
+	</tr>
+	<tr>
+		<td>Infantil</td>
+		<td>19:00</td>
+		<td></td>
+		<td></td>
+		<td>19:00</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Cadete</td>
+		<td></td>
+		<td>19:00</td>
+		<td></td>
+		<td>19:00</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Juvenil</td>
+		<td>19:00</td>
+		<td></td>
+		<td>19:00</td>
+		<td></td>
+		<td>19:00</td>
+	</tr>
+
+</table>
+</body>
+</html>
